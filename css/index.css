@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.piaofangsvg rect:hover {
+			fill: #e2da99 !important;
+	opacity:1;
+	
+		}
+
+.piaofangsvg rect.active:hover {
+			fill: #e2da99 !important;
+	opacity:1;
+	
+		}
+
+.guanjianci rect:hover {
+	cursor: pointer;
+	
+		}
+
+@font-face {
+	font-family: 'ysjtz';
+ src:url(../fonts/方正颜宋简体-准.TTF);
+}
+@font-face {
+	font-family: 'ysjt';
+ src : url(../fonts/方正颜宋简体-中.TTF);
+}
+
+
+.hidden-box {
+	background: #F9F5F5;
+	border-radius:10px;
+	height: 120px;
+	width:420px;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.hidden-box .dyname{
+	font-size: 18px;
+	color: #73AFB6;
+}
+
+.hidden-box .piaofang{
+	margin-top: 20px;
+	color: #7F7A6C;
+}
+
+.hidden-box .adj{
+	color: #342800;
+	margin-top: 30px;
+}
+
+.hidden-box .mingci{
+	color: #342800;
+}
+
+
+p{
+	font-family: 'ysjtz';
+}
+
+
+.hidden-box p {
+	font-size: 14px;
+	line-height:0px;
+	
+        }
+.piaofangsvg rect.active{
+	opacity:0.6;
+}
+
+.guanjianci rect.checked{
+	opacity: 1;
+}
+
+/*
+.niandaisvg g .show{
+	opacity: 1 !important ;
+}
+*/
+
+/*
+.niandaisvg .checked{
+	fill:#FFFFFF !important ;
+}
+*/
+
+.leixing {
+	opacity: 0;
+}
+
+
+.anniu {
+	fill:#2b2301;
+}
+
+rect.anniu.checkedanniu{
+	fill:#fcfcfc
+}
+
+
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width:100%;
+	max-height: 100px;
+}
+
+.img-responsive2{
+	display: block;
+  height: auto;
+/*  max-width:100%;*/
+	max-width: 800px;
+	max-height: 600px;
+	
+}
+
+.imgs{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.annius{
+	font-family: 'ysjt';
+	border-radius:5px;
+	height: 25px;
+	width:80px;
+	margin:20px;
+}
+
+.annius:hover{
+	cursor: pointer;
+}
+
+.imgnew{
+	display: none;
+	width: 100%;
+	height: 100%;
+	background:rgba(43,35,1,0.90);
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	padding-top: 50px;
+	z-index: 9999;
+	
+	
+/*	padding: 30px;*/
+}
+	
